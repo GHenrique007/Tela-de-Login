@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 124.5px;
+}
+
+.img {
+    width: 687px;
+    height: 1031px;
+    top: -7px;
+
+}
+
+section {
+    /* width:753px;
+    height:1,024px; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    align-items: center;
+
+
+
+    & p:first-child {
+
+        font-size: 25px;
+        font-weight: 300;
+        justify-content: flex-start;
+    }
+
+    .subtitulo {
+        & h1 {
+            font-size: 31px;
+            font-weight: 500;
+        }
+
+        & p {
+            background-color: aqua;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}
+
+.geral {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    /*  margin: 203.5px 124.5px; */
+    width: 504px;
+    height: 617px;
+    border: 0.5px black solid;
+    padding: 55px;
+    /*  align-items: center; */
+}
+
+section .form {
+    width: 423px;
+    height: 376px;
+  /*   background-color: blue; */
+
+    & #E-mail {
+        border: none;
+        outline: none;
+        background-color: coral;
+        width: 423px;
+    }
+
+    & #Senha {
+        border: none;
+        outline: none;
+        width: 423px;
+
+    
+    }
+    
+        
+    }
+
+    .input {
+        display: flex;
+border: 1px solid red;
+        gap: 10px;
+    }
+    
+
+
