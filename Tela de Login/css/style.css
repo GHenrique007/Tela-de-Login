@@ -3,19 +3,24 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    text-decoration: none;
 }
 
 main {
     display: flex;
-    justify-content: center;
-    gap: 124.5px;
+    gap: 130px;
+   
+
+
 }
 
-.img {
-    width: 687px;
-    height: 1031px;
-    top: -7px;
-
+.img10 {
+    background-image: url(../svg/inicial.svg);
+    height: 100vh;
+    max-height: 1031px;
+    width: 100vw;
+    max-width: 687px;
+ 
 }
 
 section {
@@ -28,8 +33,6 @@ section {
 
 header {
     align-items: center;
-
-
 
     & p:first-child {
 
@@ -45,53 +48,109 @@ header {
         }
 
         & p {
-            background-color: aqua;
             font-size: 16px;
             font-weight: 400;
         }
     }
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+  
+}
+
+
 .geral {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    /*  margin: 203.5px 124.5px; */
+    /*   margin: 203.5px 124.5px; */
+    margin: 0 auto;
     width: 504px;
     height: 617px;
-    border: 0.5px black solid;
+    border: 0.5px rgba(0, 0, 0, 0.527) solid;
     padding: 55px;
-    /*  align-items: center; */
+    border-radius: 7px;
 }
 
 section .form {
     width: 423px;
     height: 376px;
-  /*   background-color: blue; */
+    /*   background-color: blue; */
 
     & #E-mail {
         border: none;
         outline: none;
-        background-color: coral;
         width: 423px;
+        height: 59px;
+        border-radius: 6px;
+        border: 0.6px solid #282828CC;
+        padding: 19px;
     }
 
     & #Senha {
         border: none;
         outline: none;
         width: 423px;
+        height: 59px;
+        font-size: 14px;
+        padding: 19px;
 
-    
     }
-    
-        
+
+    & .email label {
+        font-size: 16px;
     }
 
-    .input {
-        display: flex;
-border: 1px solid red;
-        gap: 10px;
+    .senha img {
+        margin: 15px;
+
     }
-    
 
 
+    .senha form {
+        width: 423px;
+        height: 59px;
+
+    }
+
+    & .senha form label {
+        font-size: 16px;
+    }
+
+}
+
+.lembrasenha {
+    display: flex;
+    gap: 25px;
+    margin: 50px 5px 25px;
+    width: 423px;
+}
+
+#Lembrar-me {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.input {
+    display: flex;
+    gap: 10px;
+    border: 0.6px solid #282828CC;
+    border-radius: 6px;
+}
+
+button {
+    width: 423px;
+    height: 60px;
+    padding: 18px 0px 18px 0px;
+    border-radius: 6px 0px 0px 0px;
+    background-color: #111111;
+    font-size: 16px;
+    color: #fff;
+}
